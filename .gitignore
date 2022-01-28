@@ -1,0 +1,4 @@
+# git ignore file
+animals-1.json
+pythonParse.ipynb
+.ipynb_checkpoints/
