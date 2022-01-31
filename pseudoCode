@@ -1,0 +1,37 @@
+Please write some JavaScript that when executed in the browser will take any arbitrary json string document body and convert it to structured html on the page.
+
+What needs to happen?
+Need to take the json document as store it so we can parse it
+Parse the document string 
+Break down and organize the parsed object
+    - What are they observations of?
+    - What other information is there?
+    - Is some of the information nested? Extract that information as well.
+    - Store this information is a type of table of database so that we can use it more easily
+Convert the information to html formatted on the page
+    - Use an html table 
+Display/output the table on the page
+
+Step 1
+Take the json file as an argument
+
+
+Step 2
+Parse the document string
+
+
+Step 3
+Break down the and organize the parsed object
+    - What are they observations of?
+    - What other information is there?
+    - Is some of the information nested? Extract that information as well.
+    - Store this information is a type of table of database so that we can use it more easily
+
+
+Step 4
+Convert the information to html formatted on the page
+    - Use an html table 
+
+
+Step 5
+Display/output the table on the page
