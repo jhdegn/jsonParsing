@@ -1,7 +1,6 @@
 // Step 1
 // Take the json file as an argument
 const args = process.argv.slice(2);
-const { table } = require('console');
 const fs = require('fs');
 
 
@@ -16,9 +15,12 @@ fs.readFile(args[0], 'utf-8', (err, jsonString) => {
 // Step 3
 // Break down the and organize the parsed object
 //     - What are they observations of?
+//          - what are the objects? What data type are they?
 //     - What other information is there?
 //     - Is some of the information nested? Extract that information as well.
+//          - are there arrays with multiple entries?
 //     - Store this information is a type of table of database so that we can use it more easily
+//          - does javascript have a dataframe?
 
 
 // Step 4
@@ -36,7 +38,7 @@ fs.readFile(args[0], 'utf-8', (err, jsonString) => {
         <th> <!-- insert first observation -->
         </th>
     </tr>
-    <! -- create some sort of loop to autopopulate the this information -->
+    <! -- create some sort of loop to autopopulate this information -->
 </table> */
 
 
